@@ -28,6 +28,9 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:23.1.1'
     compile 'com.squareup.okhttp:okhttp:2.2.0' // Async API calls
-    compile 'com.simplify:simplify-android:2.0.3'
-    compile 'com.kontakt.sdk.android:kontakt.io-android-sdk:2.0.0'
+    compile 'com.simplify:simplify-android:2.0.3' // Payment Auth
+    compile 'com.kontakt.sdk.android:kontakt.io-android-sdk:2.0.0' // Beacons
+
+    compile 'com.mikepenz:iconics-core:1.7.5@aar' // Icons
+    compile 'com.mikepenz:google-material-typeface:1.2.0.1@aar' // Icon Fonts
 }
