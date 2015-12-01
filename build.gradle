@@ -14,6 +14,9 @@ buildscript {
 
 allprojects {
     repositories {
-        jcenter()
+        maven { url "http://dl.bintray.com/populov/maven" }
+        maven { url 'http://repo.kontakt.io/repository/internal/' }
+        maven { url "https://jitpack.io" }
+        mavenCentral()
     }
 }
