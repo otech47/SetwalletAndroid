@@ -3,6 +3,9 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="store_distance">2.2 Mi`</string>
+    <string name="store_name">Mobile Gas</string>
+    <string name="store_offer">$.03 off per gallon</string>
     <string name="kontakt_io_api_key">LRmWVzJtEnbmtVqoWyVFBoaXPmKuxxGV</string>
 
 </resources>

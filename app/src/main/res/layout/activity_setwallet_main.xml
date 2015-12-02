@@ -5,9 +5,11 @@
                 android:padding="@dimen/large"
                 tools:context=".SetwalletMainActivity">
 
-    <TextView
-        android:text="main activity"
+    <android.support.design.widget.FloatingActionButton
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="16dp"
+        android:clickable="true"/>
 
 </RelativeLayout>
