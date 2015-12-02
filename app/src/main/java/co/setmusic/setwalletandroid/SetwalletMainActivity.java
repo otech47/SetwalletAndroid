@@ -13,6 +13,7 @@ public class SetwalletMainActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_setwallet_main);
 
+
     }
 
 }

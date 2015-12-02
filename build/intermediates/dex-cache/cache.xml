@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/oscarlafarga/setwallet-android/app/build/intermediates/exploded-aar/com.simplify/simplify-android/2.0.3/jars/classes.jar"
+        jar="/Users/oscarlafarga/setwallet-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="6d00ada58d50d5f1418e32f0247223c67fd0535f">
-        <dex dex="/Users/oscarlafarga/setwallet-android/app/build/intermediates/pre-dexed/debug/classes-26d22601fdb069cba304acb74266c53a376c4bca.jar" />
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/oscarlafarga/setwallet-android/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-106945b5071bba775fe709fc1d8b395b64faa98a.jar" />
     </item>
     <item
         jar="/Users/oscarlafarga/setwallet-android/app/build/intermediates/exploded-aar/com.kontakt.sdk.android/kontakt.io-ble-sdk/2.0.0/jars/classes.jar"
@@ -16,11 +16,11 @@
         <dex dex="/Users/oscarlafarga/setwallet-android/app/build/intermediates/pre-dexed/debug/classes-0ae30aceb7b0e3364eb722552ce4c2f27cf48a36.jar" />
     </item>
     <item
-        jar="/Users/oscarlafarga/setwallet-android/app/build/intermediates/exploded-aar/com.kontakt.sdk.android/kontakt.io-api-client/2.0.0/jars/classes.jar"
+        jar="/Users/oscarlafarga/setwallet-android/app/build/intermediates/exploded-aar/com.kontakt.sdk.android/kontakt.io-common-sdk/2.0.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="e9eb951b73e65b66b3db8a0a6b16435d57277e4f">
-        <dex dex="/Users/oscarlafarga/setwallet-android/app/build/intermediates/pre-dexed/debug/classes-1c55ecb837f0a4bed4ef9745096ade34150517de.jar" />
+        sha1="91d878ac9cf321f47d8455d60ac06e754490d946">
+        <dex dex="/Users/oscarlafarga/setwallet-android/app/build/intermediates/pre-dexed/debug/classes-db9c5c02c19414a7bf32a73e3212a530ce2b3cf3.jar" />
     </item>
     <item
         jar="/Users/oscarlafarga/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.3.0/1b355f73402020c5a0dcca58affc3ec3dfeabac1/okio-1.3.0.jar"
@@ -30,11 +30,39 @@
         <dex dex="/Users/oscarlafarga/setwallet-android/app/build/intermediates/pre-dexed/debug/okio-1.3.0-97445009775b43523dadfd22792f8c075cd790a8.jar" />
     </item>
     <item
-        jar="/Users/oscarlafarga/setwallet-android/app/build/intermediates/exploded-aar/com.kontakt.sdk.android/kontakt.io-common-sdk/2.0.0/jars/classes.jar"
+        jar="/Users/oscarlafarga/setwallet-android/app/build/intermediates/exploded-aar/com.kontakt.sdk.android/kontakt.io-android-sdk/2.0.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="91d878ac9cf321f47d8455d60ac06e754490d946">
-        <dex dex="/Users/oscarlafarga/setwallet-android/app/build/intermediates/pre-dexed/debug/classes-db9c5c02c19414a7bf32a73e3212a530ce2b3cf3.jar" />
+        sha1="e74de4b4e663bbb3e401e0d16c76ebfba8c442dc">
+        <dex dex="/Users/oscarlafarga/setwallet-android/app/build/intermediates/pre-dexed/debug/classes-1293dfe32b798e89730af7c627adfff88df46c0d.jar" />
+    </item>
+    <item
+        jar="/Users/oscarlafarga/setwallet-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/oscarlafarga/setwallet-android/app/build/intermediates/pre-dexed/debug/classes-139113e4c88b5afd40a91624f15d2dff3e8a86e3.jar" />
+    </item>
+    <item
+        jar="/Users/oscarlafarga/setwallet-android/app/build/intermediates/exploded-aar/com.mikepenz/google-material-typeface/1.2.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b646d398bbae664de1bf476c308a2b39d6d2651c">
+        <dex dex="/Users/oscarlafarga/setwallet-android/app/build/intermediates/pre-dexed/debug/classes-15bb85e799cc2f6ed35e3e383e538261eb002b59.jar" />
+    </item>
+    <item
+        jar="/Users/oscarlafarga/setwallet-android/app/build/intermediates/exploded-aar/com.simplify/simplify-android/2.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6d00ada58d50d5f1418e32f0247223c67fd0535f">
+        <dex dex="/Users/oscarlafarga/setwallet-android/app/build/intermediates/pre-dexed/debug/classes-26d22601fdb069cba304acb74266c53a376c4bca.jar" />
+    </item>
+    <item
+        jar="/Users/oscarlafarga/setwallet-android/app/build/intermediates/exploded-aar/com.kontakt.sdk.android/kontakt.io-api-client/2.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e9eb951b73e65b66b3db8a0a6b16435d57277e4f">
+        <dex dex="/Users/oscarlafarga/setwallet-android/app/build/intermediates/pre-dexed/debug/classes-1c55ecb837f0a4bed4ef9745096ade34150517de.jar" />
     </item>
     <item
         jar="/Users/oscarlafarga/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.3.0/2e7bc7033dc2c8423e661224171b3133fb155b28/okhttp-2.3.0.jar"
@@ -44,11 +72,25 @@
         <dex dex="/Users/oscarlafarga/setwallet-android/app/build/intermediates/pre-dexed/debug/okhttp-2.3.0-7dc8b03994e0ee58e18da2297e380967cea9e435.jar" />
     </item>
     <item
-        jar="/Users/oscarlafarga/setwallet-android/app/build/intermediates/exploded-aar/com.kontakt.sdk.android/kontakt.io-android-sdk/2.0.0/jars/classes.jar"
+        jar="/Users/oscarlafarga/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="e74de4b4e663bbb3e401e0d16c76ebfba8c442dc">
-        <dex dex="/Users/oscarlafarga/setwallet-android/app/build/intermediates/pre-dexed/debug/classes-1293dfe32b798e89730af7c627adfff88df46c0d.jar" />
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/oscarlafarga/setwallet-android/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-1f9fff8bed19ef0dbefb0565954e06359f48c179.jar" />
+    </item>
+    <item
+        jar="/Users/oscarlafarga/setwallet-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/oscarlafarga/setwallet-android/app/build/intermediates/pre-dexed/debug/classes-8055d194af04ed35906966b3547a1d8fb1521dd1.jar" />
+    </item>
+    <item
+        jar="/Users/oscarlafarga/setwallet-android/app/build/intermediates/exploded-aar/com.mikepenz/iconics-core/1.7.5/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ed0ad4d0833048e8ca600102836932ae2a58956c">
+        <dex dex="/Users/oscarlafarga/setwallet-android/app/build/intermediates/pre-dexed/debug/classes-8f0d05653d30f2f6469c5e135c9cf3947fb780d2.jar" />
     </item>
     <item
         jar="/Users/oscarlafarga/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
