@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:background="@color/material_grey_100"
+                android:layout_height="match_parent">
+
+    // For background image
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/background"
+        android:layout_alignParentTop="true"
+        android:layout_height="match_parent"/>
+
+    // Header (remove if needed)
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/intro_header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <RelativeLayout
+            style="@style/action_bar">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Setwallet"
+                android:id="@+id/categories_label"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/text_large"
+                android:textColor="@color/accent_material_light"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/card_container"
+        android:padding="@dimen/large"
+        android:layout_below="@id/intro_header"
+        android:layout_height="200dp">
+
+        <com.simplify.android.sdk.CardEditor
+            android:id="@+id/card_editor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Submit"
+            android:enabled="false"
+            android:layout_margin="@dimen/large"
+            android:background="@color/material_grey_300"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/checkout_button"
+            android:layout_below="@id/card_editor"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/card_container"
+        android:padding="@dimen/xlarge"
+        android:layout_alignParentBottom="true"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/masterpass_button"
+            android:layout_centerInParent="true"
+            android:layout_height="100dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

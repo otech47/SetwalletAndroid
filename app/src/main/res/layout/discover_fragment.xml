@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        style="@style/action_bar"
+        android:id="@+id/discover_header"
+        android:background="@color/material_blue_grey_900">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textAllCaps="true"
+            android:id="@+id/categories_label"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/text_large"
+            android:textColor="@color/accent_material_light"/>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:id="@+id/map_container"
+        android:layout_below="@id/discover_header"
+        android:name="com.setmine.android.fragments.DiscoverMapFragment"
+        android:layout_height="300dp">
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            android:id="@+id/map_loader"
+            android:padding="100dp"
+            android:indeterminate="true"/>
+        <fragment
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="com.google.android.gms.maps.SupportMapFragment"
+            tools:layout="@layout/discover_fragment"/>
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@id/map_container"
+        android:layout_alignParentBottom="true"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/purchase_report_list_fragment"
+            android:layout_gravity="center_horizontal"/>
+
+    </ScrollView>
+
+
+</RelativeLayout>

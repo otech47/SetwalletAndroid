@@ -47,4 +47,11 @@ dependencies {
 
     compile 'com.mikepenz:iconics-core:1.7.5@aar' // Icons
     compile 'com.mikepenz:google-material-typeface:1.2.0.1@aar' // Icon Fonts
+
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.4' // Image loading
+
+    compile 'com.google.android.gms:play-services-maps:8.3.0' // Google Play Services
+    compile 'com.google.android.gms:play-services-location:8.3.0' // Google Play Services
+    compile 'com.google.android.gms:play-services-base:8.3.0' // Google Play Services
+
 }
