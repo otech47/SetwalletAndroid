@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_margin="@dimen/medium"
+        android:id="@+id/store_icon"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small"
+        android:layout_marginLeft="@dimen/small"
+        android:textSize="@dimen/text_large"
+        android:textStyle="bold"
+        android:text="@string/store_name"
+        android:layout_toEndOf="@+id/store_icon"
+        android:id="@+id/store_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="@dimen/small"
+        android:layout_marginLeft="@dimen/small"
+        android:textSize="@dimen/text_medium"
+        android:text="@string/store_offer"
+        android:id="@+id/store_offer"
+        android:layout_alignBottom="@+id/store_icon"
+        android:layout_toEndOf="@+id/store_icon"/>
+
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:id="@+id/store_favorite_icon"
+        android:layout_margin="@dimen/medium"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/tiny"
+        android:text="@string/store_distance"
+        android:id="@+id/store_distance"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/store_favorite_icon"/>
+
+
+</RelativeLayout>

@@ -7,6 +7,7 @@
     <dimen name="large">15dp</dimen>
     <dimen name="xlarge">20dp</dimen>
     <dimen name="xxlarge">30dp</dimen>
+    <dimen name="iconlarge">36dp</dimen>
 
     <dimen name="text_tiny">10sp</dimen>
     <dimen name="text_small">12sp</dimen>
