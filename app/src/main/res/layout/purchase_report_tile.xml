@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:padding="@dimen/small"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/store_name"
+        android:textSize="20sp"
+        android:text="Trusted Store"
+        android:layout_alignParentTop="true"
+        android:gravity="left"
+        android:paddingStart="@dimen/medium"
+        android:layout_alignParentStart="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:text="Mon, November 30th, 2015"
+        android:layout_below="@id/store_name"
+        android:textSize="14sp"
+        android:paddingStart="@dimen/large"
+        android:paddingTop="@dimen/medium"
+        android:layout_alignParentStart="true"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/amount"
+        android:text="$0.00"
+        android:padding="@dimen/medium"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_alignParentEnd="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/card"
+        android:layout_below="@id/amount"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:padding="@dimen/medium"
+        android:text="Card -1234"
+        />
+
+</RelativeLayout>

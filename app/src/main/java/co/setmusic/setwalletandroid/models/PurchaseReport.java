@@ -24,4 +24,20 @@ public class PurchaseReport {
         }
 
     }
+
+    public String getStoreName() {
+        return storeName;
+    }
+
+    public String getAmount() {
+        return amount;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public String getPaymentMethod() {
+        return paymentMethod;
+    }
 }

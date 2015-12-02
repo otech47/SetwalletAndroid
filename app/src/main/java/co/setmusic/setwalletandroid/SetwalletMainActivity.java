@@ -37,7 +37,8 @@ public class SetwalletMainActivity
         configureImageLoader();
         createAndAddFragment("IntroFragment", IntroFragment.class, false, new Bundle());
 
-//        launchBeaconService();
+        // Use Kontakt.io SDK to monitor Bluetooth beacons
+        launchBeaconService();
     }
 
     public void configureImageLoader() {

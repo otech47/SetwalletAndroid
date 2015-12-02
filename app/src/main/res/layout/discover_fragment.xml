@@ -7,7 +7,7 @@
     <RelativeLayout
         style="@style/action_bar"
         android:id="@+id/discover_header"
-        android:background="@color/material_blue_grey_900">
+        android:background="#ef4836">
 
         <TextView
             android:layout_width="wrap_content"
@@ -18,7 +18,7 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:textSize="@dimen/text_large"
-            android:textColor="@color/accent_material_light"/>
+            android:textColor="#FFFFFF"/>
 
     </RelativeLayout>
 
@@ -43,19 +43,15 @@
             tools:layout="@layout/discover_fragment"/>
     </FrameLayout>
 
-    <ScrollView
+    <ListView
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/stores_list"
         android:layout_below="@id/map_container"
         android:layout_alignParentBottom="true"
-        android:layout_height="match_parent">
+        android:layout_gravity="center_horizontal"/>
 
-        <ListView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/purchase_report_list_fragment"
-            android:layout_gravity="center_horizontal"/>
 
-    </ScrollView>
 
 
 </RelativeLayout>
